@@ -1,0 +1,12 @@
+{
+    "validCustomerData": {
+        "firstName": "Priyanka",
+        "lastName": "Krishna",
+        "postalCode": "101080"
+    },
+    "invalidCustomerData": {
+        "firstName": "James",
+        "lastName": "Guo",
+        "postalCode": ""
+    }
+}

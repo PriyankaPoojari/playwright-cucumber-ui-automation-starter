@@ -1,0 +1,21 @@
+{
+    "name": "QA-PLAYWRIGHT-UI-AUTOMATION",
+    "description": "test ui",
+    "main": "index.js",
+    "scripts": {
+        "debug": "cucumber-js -p sit --tags @wip --parallel=1",
+        "test": "cucumber-js -p sit --parallel=3",
+        "report": "node src/utils/htmlReporter.js"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.49.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "@cucumber/cucumber": "^11.1.0",
+        "@cucumber/html-formatter": "^21.7.0",
+        "@cucumber/pretty-formatter": "^1.0.1",
+        "cucumber-html-reporter": "^6.0.0"
+    }
+}
