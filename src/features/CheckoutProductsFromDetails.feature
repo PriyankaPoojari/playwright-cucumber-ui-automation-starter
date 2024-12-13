@@ -1,7 +1,7 @@
-Feature: Click on Individual Products and checkout
+Feature: Select Products, add to cart and checkout
 
-@EndToEnd @wip
-Scenario Outline: As an Buyer, I should be able to chekout multiple products directly from home page
+@EndToEnd @debug
+Scenario Outline: As a Buyer, I should be able to chekout individual products from product details page
 
 Given I open Saucedemo and login as "<LoginUser>"
 When I click on following products and verify add to cart is getting updated from Product details:

@@ -1,7 +1,7 @@
-Feature: Checkout multiple Products from HomePage
+Feature: Add to cart multiple Products from HomePage and checkout
 
 @EndToEnd
-Scenario Outline: As an Buyer, I should be able to chekout multiple products directly from home page
+Scenario Outline: As a Buyer, I should be able to chekout multiple products directly from home page
 
 Given I open Saucedemo and login as "<LoginUser>"
 When I select following products and verify add to cart is getting updated:

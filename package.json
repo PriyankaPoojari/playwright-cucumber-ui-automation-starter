@@ -3,7 +3,7 @@
     "description": "test ui",
     "main": "index.js",
     "scripts": {
-        "debug": "cucumber-js -p sit --tags @wip --parallel=1",
+        "debug": "cucumber-js -p sit --tags @debug --parallel=1",
         "test": "cucumber-js -p sit --parallel=3",
         "report": "node src/utils/htmlReporter.js"
     },
