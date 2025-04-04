@@ -3,7 +3,7 @@
 <h1 dir="auto"><a class="anchor" aria-hidden="true" href="<https://playwright.dev/>"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd"></path></svg></a><g-emoji class="g-emoji" alias="performing_arts" fallback-src="<https://github.githubassets.com/images/icons/emoji/unicode/1f3ad.png>">🎭</g-emoji> Automation framework in Playwright with Cucumber</h1>
 
 <p align="center">
-\#automation #playwright #typescript #boilerplate #starter-repo
+#automation #playwright #typescript #boilerplate #starter-repo
 </p>
 
 A starter repo for writing E2E tests with Playwright and Cucumber framework using Typescript.
